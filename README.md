@@ -34,3 +34,13 @@ The data contains 4000 short English dialogues: from 5 to 17 utterances
    1.0
 ]
 
+## Modeling
+
+We train and evaluate a BERT `bert-base-uncased` baseline on two different settings:
+
+     - Freezed: we freeze the BERT embedding layer weights and fine-tune the classifier heads on top
+     
+     - Full: we fine-tune the whole model architecture. Make sure you set a small enough batch size. 
+                We recommend 1.
+
+We also evaluate a random and a majority classifier for emotions and triggers and report a comparison with the selected model(s) and the baselines.
