@@ -55,3 +55,8 @@ We report the following metrics for model evaluation.
 
 We compute the above metrics for emotions and triggers labels.
 
+To assess model robustness and report a sound evaluation, we train and evaluate your model(s) on 5 different seeds.
+
+We report all metrics' average and standard deviation computed over the 5 seeds.
+
+
