@@ -44,3 +44,14 @@ We train and evaluate a BERT `bert-base-uncased` baseline on two different setti
                 We recommend 1.
 
 We also evaluate a random and a majority classifier for emotions and triggers and report a comparison with the selected model(s) and the baselines.
+
+## Metrics
+
+We report the following metrics for model evaluation.
+
+     Sequence F1: compute the f1-score for each dialogue and report the average score.
+
+     Unrolled Sequence F1: flatten all utterances and compute the f1-score.
+
+We compute the above metrics for emotions and triggers labels.
+
