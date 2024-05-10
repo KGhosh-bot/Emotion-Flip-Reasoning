@@ -1,7 +1,11 @@
-# Emotion-Flip-Reasoning
+# Evolving Emotions in Conversation: Emotion and Trigger Prediction with Multi-Task Learning
 Emotion Discovery and Reasoning its Flip in Conversation (EDiReF), SemEval 2024 Task 10 SUBTASK iii (English dialogues only) 
 
-The data contains 4000 short English dialogues: from 5 to 17 utterances
+The data contains 4000 short English dialogues: from 5 to 17 utterances.
+
+SemEval 2024 Task 10, “EDiReF,” aims to advance human communication understanding by analyzing emotional shifts in English dialogues. By analyzing a dataset comprising 4,000 dialogues, researchers aim to identify the factors that influence emotional shifts, a BERT model is put to the test in two configurations: one in its initial state and another after undergoing extensive training. These BERT models are compared against simpler classifiers like random and majority classifiers. 
+
+The evaluation process involves using metrics to measure how well these models can recognize emotions within dialogues. The findings underscore the effectiveness of the BERT model, particularly after fine-tuning, in discerning the intricate nuances of emotions within conversational contexts. Through rigorous analysis, it becomes evident that BERT outperforms the simpler classifiers, achieving higher accuracy and demonstrating superior performance metrics. This underscores the efficacy of BERT in complex emotion recognition tasks within conversational contexts.
 
 ## Data
 "emotions":
