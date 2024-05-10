@@ -68,9 +68,13 @@ We compute the above metrics for emotions and triggers labels.
 
 To assess model robustness and report a sound evaluation, we train and evaluate your model(s) on 5 different seeds.
 
+The unfrozen BERT model achieved the best performance for emotion classification, with an average sequence F1 score of 42. 65%. This is significantly higher than the other models, with frozen BERT achieving 21.06% and the baseline models (’majority’ and ’uniform’) falling below 20%. Although unfrozen BERT also performed well for trigger classification (average sequence F1 score of 45. 25%), there was less variation between models on this task. Interestingly, the baseline models achieved similar or even slightly better scores for trigger classification compared to the BERT models.
+
 * Figure below demonstrates the summary of the experimantal results.
 <p align="center">
     <img src="imgs/comparison.png", style="width: 500px; height: 300px;"/></center>
 </p>
+
+    Note: Read the report for detailed explainations
 
 
