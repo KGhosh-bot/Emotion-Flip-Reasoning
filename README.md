@@ -55,6 +55,7 @@ We also evaluate a random and a majority classifier for emotions and triggers an
 <p align="center">
     <img src="imgs/model.png", style="width: 300px; height: 600px;"/></center>
 </p>
+
 ## Metrics
 
 We report the following metrics for model evaluation.
@@ -69,7 +70,7 @@ To assess model robustness and report a sound evaluation, we train and evaluate 
 
 * Figure below demonstrates the summary of the experimantal results.
 <p align="center">
-    <img src="imgs/comparison.png", style="width: 500px; height: 400px;"/></center>
+    <img src="imgs/comparison.png", style="width: 500px; height: 300px;"/></center>
 </p>
 
 
