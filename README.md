@@ -53,7 +53,7 @@ We train and evaluate a BERT `bert-base-uncased` baseline on two different setti
 
 We also evaluate a random and a majority classifier for emotions and triggers and report a comparison with the selected model(s) and the baselines.
 <p align="center">
-    <img src="imgs/model.png", style="width: 300px; height: 600px;"/></center>
+    <img src="imgs/model.png", style="width: 300px; height: 500px;"/></center>
 </p>
 
 ## Metrics
