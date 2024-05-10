@@ -37,6 +37,10 @@ The evaluation process involves using metrics to measure how well these models c
    1.0,
    1.0
 ]
+<p align="center">
+    <img src="imgs/efr-eg-2.png", style="width: 500px; height: 400px;"/></center>
+</p>
+
 
 ## Modeling
 
@@ -48,7 +52,9 @@ We train and evaluate a BERT `bert-base-uncased` baseline on two different setti
                 We recommend 1.
 
 We also evaluate a random and a majority classifier for emotions and triggers and report a comparison with the selected model(s) and the baselines.
-
+<p align="center">
+    <img src="imgs/model.png", style="width: 400px; height: 400px;"/></center>
+</p>
 ## Metrics
 
 We report the following metrics for model evaluation.
@@ -61,6 +67,9 @@ We compute the above metrics for emotions and triggers labels.
 
 To assess model robustness and report a sound evaluation, we train and evaluate your model(s) on 5 different seeds.
 
-We report all metrics' average and standard deviation computed over the 5 seeds.
+* Figure below demonstrates the summary of the experimantal results.
+<p align="center">
+    <img src="imgs/comparison.png", style="width: 400px; height: 200px;"/></center>
+</p>
 
 
